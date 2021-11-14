@@ -11,7 +11,3 @@ def merge(lists):
         for k in range(rang):
             lists_new = lists_new + rang_len[k]
     print(lists_new)
-
-if __name__ == '__main__':
-    lists = [1, 4, 5], [1, 3, 4], [2, 6]
-    merge(lists)
