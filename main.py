@@ -1,4 +1,4 @@
-def merge(lists):
+def merge(*lists):
     lists_new = sum(lists, [])
     length = len(str(max(lists_new)))
     rang = 10
